@@ -1,9 +1,10 @@
-import { defineConfig } from 'vite'
+﻿import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
-// GitHub Pages serves the site from /Elearna-website/ ; Vercel and local dev use "/".
+const repoName = process.env.GITHUB_REPOSITORY?.split('/')[1]
+
 export default defineConfig({
-  base: process.env.GITHUB_ACTIONS ? '/Elearna-website/' : '/',
+  base: process.env.GITHUB_ACTIONS && repoName ? `/${repoName}/` : '/',
   plugins: [react(), tailwindcss()],
 })
