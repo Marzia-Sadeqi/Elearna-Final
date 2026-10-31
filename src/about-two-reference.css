@@ -1,0 +1,153 @@
+.site-page-about-two .site-page-header{position:fixed!important;inset:0 0 auto!important;height:68px!important;z-index:999;background:#10292b!important}
+.site-page-about-two .site-page-header .nav-wrap{height:68px}
+.site-page-about-two .site-page-hero.about-two-hero{height:584px;padding:210px 0;background:linear-gradient(rgba(8,16,18,.7),rgba(8,16,18,.7)),url('/assets/about-two-hero.webp') center/cover no-repeat}
+.site-page-about-two .site-page-hero.about-two-hero:after{display:none}
+.site-page-about-two .about-story.two-story{position:relative;width:min(1615px,calc(100% - 30px));max-width:none;height:836px;min-height:836px;margin:0 auto;padding:90px 0 80px;display:grid;grid-template-columns:minmax(0,1.18fr) minmax(0,1fr);gap:80px;align-items:center}
+.site-page-about-two .about-two-story-photos{position:relative;grid-column:1;grid-row:1;height:666px}
+.site-page-about-two .about-two-story-copy{grid-column:2;grid-row:1;align-self:center}
+.site-page-about-two .about-two-story-photos img{position:absolute;object-fit:cover;border-radius:4px;box-shadow:0 10px 28px #10292b22}
+.site-page-about-two .about-two-story-photos img:first-of-type{top:105px;left:0;width:70%;height:374px}
+.site-page-about-two .about-two-story-photos img:last-child{right:40px;bottom:0;width:68%;height:600px}
+.site-page-about-two .about-two-story-copy h2{margin:15px 0 12px;font:600 35px/44px 'Space Grotesk',sans-serif;color:#10292b}
+.site-page-about-two .about-two-story-copy p{color:#778080;line-height:1.8}
+.site-page-about-two .about-two-story-copy p:last-child{margin-bottom:0}
+.site-page-about-two .year-badge{position:absolute;z-index:3;left:76%;top:105px;width:auto;height:auto;margin:0;display:flex;flex-direction:row;align-items:center;gap:12px;background:transparent;border-radius:0;color:#10292b}
+.site-page-about-two .year-badge span{writing-mode:vertical-lr;font:700 12px/22px 'Outfit',sans-serif;text-transform:uppercase}
+.site-page-about-two .year-badge strong{writing-mode:vertical-lr;font:500 100px/84px 'Outfit',sans-serif;color:#10292b}
+.site-page-about-two .about-philosophy{width:min(1615px,calc(100% - 30px));max-width:none;height:770px;min-height:770px;margin:0 auto;padding:28px 0 50px;overflow:visible}
+.site-page-about-two .about-philosophy h2{margin:12px 0 27px;font-size:35px;line-height:44px}
+.site-page-about-two .about-two-course-categories{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:35px;margin-top:0;padding-top:50px}
+.site-page-about-two .about-two-category-card{position:relative;min-width:0;height:460px;padding:0;display:flex;align-items:center;justify-content:center;overflow:visible;background:transparent;box-shadow:none;text-decoration:none}
+.site-page-about-two .about-two-category-background{position:absolute;inset:0;display:flex;justify-content:flex-end;align-items:center;padding:70px 10px 70px 0;border-radius:4px;background:#b6b7ba;box-shadow:0 40px 60px #1b27294d;opacity:0;transition:opacity .35s ease}
+.site-page-about-two .about-two-category-label{writing-mode:vertical-rl;color:#10292b;font:600 20px/25px 'Space Grotesk',sans-serif}
+.site-page-about-two .about-two-category-image{position:absolute;z-index:2;inset:0;perspective:1000px;transform:perspective(1000px)}
+.site-page-about-two .about-two-category-image img{display:block;width:100%;height:100%;object-fit:cover;border-radius:4px;box-shadow:none;transform:rotateY(0deg);transform-origin:left center;transition:transform .65s cubic-bezier(.22,.61,.36,1),box-shadow .45s ease}
+.site-page-about-two .about-two-category-arrow{position:absolute;z-index:4;top:50%;right:35px;width:58px;height:58px;display:flex;align-items:center;justify-content:center;border-radius:50%;background:#eff6f8;color:#10292b;opacity:0;transform:translateY(-50%);transition:opacity .3s ease}
+.site-page-about-two .about-two-category-arrow img{width:18px;height:14px;object-fit:contain}
+.site-page-about-two .about-two-category-card:hover .about-two-category-background,.site-page-about-two .about-two-category-card:focus-visible .about-two-category-background{opacity:1}
+.site-page-about-two .about-two-category-card:hover .about-two-category-image img,.site-page-about-two .about-two-category-card:focus-visible .about-two-category-image img{transform:rotateY(38deg);box-shadow:0 40px 60px #1b27294d}
+.site-page-about-two .about-two-category-card:hover .about-two-category-arrow,.site-page-about-two .about-two-category-card:focus-visible .about-two-category-arrow{opacity:1}
+.site-page-about-two .about-quote{height:285px;min-height:285px;padding:55px 15px;display:flex;align-items:center;background:#f2f6f6}
+.site-page-about-two .about-quote .site-page-wrap{width:min(645px,100%);margin-inline:auto}
+.site-page-about-two .about-quote h2{margin:10px 0 0;font:600 35px/44px 'Space Grotesk',sans-serif;letter-spacing:-.5px}
+.about-two-potential{height:750px;padding:38px 15px 37px;background:#10292b}
+.about-two-potential-cards{width:min(755px,100%);height:675px;margin:0 auto;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(2,330px);gap:15px}
+.about-two-potential-cards article{min-width:0;padding:28px 26px;display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-end;background-position:center;background-size:cover;border-radius:4px;color:#fff}
+.about-two-potential-cards article>b{margin-bottom:8px;color:#ffb606;font:600 28px/1.2 'Space Grotesk',sans-serif}
+.about-two-potential-cards article h3{margin:0 0 8px;color:#fff;font:600 22px/1.2 'Space Grotesk',sans-serif}
+.about-two-potential-cards article p{margin:0 0 14px;color:#e3e8e7;font-size:14px;line-height:1.55}
+.about-two-potential-cards article a{color:#fff;font-size:14px;font-weight:500}
+.site-page-about-two .about-vision{height:726px;min-height:726px;padding:90px 0;background:#10292b;color:#fff}
+.site-page-about-two .about-vision>.site-page-wrap{height:100%;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:55px}
+.about-two-vision-photos{height:546px;position:relative}
+.about-two-vision-main-photo,.about-two-vision-secondary-photo{position:absolute}
+.about-two-vision-main-photo{left:0;top:0;width:75%;height:390px}
+.about-two-vision-secondary-photo{right:0;bottom:0;width:72%;height:370px}
+.about-two-vision-photos img{position:relative;display:block;width:100%;height:100%;object-fit:cover;border-radius:4px}
+.about-two-vision-secondary-photo>img{border:8px solid #10292b}
+.about-two-vision-stat{position:absolute;z-index:2;right:-38px;bottom:-30px;width:165px;height:110px;padding:18px 20px;display:flex;flex-direction:column;justify-content:center;background:#ffb606;color:#10292b}
+.about-two-vision-stat strong{font:600 38px/1.1 'Space Grotesk',sans-serif}
+.about-two-vision-stat span{font-size:11px;letter-spacing:.06em}
+.about-two-vision-stat.dark{left:-45px;right:auto;top:-65px;bottom:auto;background:#15373b;color:#ffb606}
+.about-two-vision-copy h2{margin:12px 0 18px;color:#fff;font:600 42px/1.2 'Space Grotesk',sans-serif}
+.about-two-vision-copy>p{color:#d2dcda}
+.about-two-vision-copy ul{margin:20px 0 0;padding-left:20px;color:#d2dcda;font-size:15px;line-height:1.8}
+.about-two-vision-copy li{margin-bottom:10px}
+.site-page-about-two .about-two-instructor-section{height:448px;min-height:448px;padding:50px 0;background:#f3f6f6 url('/assets/66d9a764b0db53cdf9cc623c_Backgorund-Noise-Two.webp') center/cover}
+.about-two-instructor{width:min(1160px,calc(100% - 30px));height:335px;margin:0 auto;padding:30px;background:#fff;display:grid;grid-template-columns:.9fr 1.1fr;align-items:center;gap:35px;border-radius:4px}
+.about-two-instructor-copy h2{margin:0 0 16px;color:#10292b;font:600 35px/1.2 'Space Grotesk',sans-serif}
+.about-two-instructor-copy p{margin:0 0 22px;color:#778080}
+.about-two-instructor-photos{height:275px;position:relative;display:flex;align-items:flex-end;justify-content:center}
+.about-two-instructor-photos img:first-child{height:100%;width:45%;object-fit:contain;object-position:bottom}
+.about-two-instructor-photos img:nth-child(2){height:100%;width:45%;object-fit:contain;object-position:bottom}
+.about-two-instructor-photos img:last-child{position:absolute;right:0;bottom:12px;width:55%;filter:drop-shadow(0 8px 18px #10292b22)}
+.site-page-about-two .about-news{height:891px;min-height:891px;padding-top:80px;padding-bottom:90px}
+.site-page-about-two .about-news>div{grid-template-columns:repeat(3,minmax(0,1fr));gap:25px}
+.site-page-about-two .about-news img{height:260px}
+.site-page-about-two .about-one-footer{height:468px;min-height:468px;padding:80px 15px 0}
+.site-page-about-two .about-one-footer-grid{width:min(755px,100%);min-height:326px;margin:0 auto;grid-template-columns:repeat(3,minmax(0,1fr));gap:40px;padding-bottom:40px}
+.site-page-about-two .about-one-footer-grid>div{gap:0}
+.site-page-about-two .about-one-footer-grid>div:not(.about-one-footer-brand)>strong{margin-bottom:27px}
+.site-page-about-two .about-one-footer-grid>div:not(.about-one-footer-brand)>a{margin-bottom:12px;line-height:29px}
+.site-page-about-two .about-one-footer-grid>div:not(.about-one-footer-brand)>a:last-child{margin-bottom:0}
+.site-page-about-two .about-one-footer-grid .about-one-footer-brand{gap:12px}
+.site-page-about-two .about-one-footer-bottom{width:min(955px,100%);margin:0 auto}
+@media(max-width:991px){
+ .site-page-about-two .site-page-header{height:69px!important}
+ .site-page-about-two .site-page-header .nav-wrap{height:69px;width:calc(100% - 30px)}
+ .site-page-about-two .site-page-header .nav-links{display:none}
+ .site-page-about-two .site-page-menu-button{display:block}
+ .site-page-about-two .site-page-hero.about-two-hero{height:414px;padding:120px 0}
+  .site-page-about-two .about-story.two-story{width:100%;max-width:none;height:1081px;min-height:1081px;margin:0;padding:50px 15px;display:flex;flex-direction:column;align-items:stretch;gap:50px}
+  .site-page-about-two .about-two-story-photos{height:666px;flex:0 0 666px;order:1}
+  .site-page-about-two .about-two-story-photos img:first-of-type{top:0;left:14%;width:65%;height:298px}
+  .site-page-about-two .about-two-story-photos img:last-child{right:0;width:59%;height:480px}
+  .site-page-about-two .about-two-story-copy{height:265px;flex:0 0 265px;order:0}
+  .site-page-about-two .year-badge{left:83%;top:0;width:auto;height:auto}
+  .site-page-about-two .about-philosophy{width:100%;max-width:none;height:895px;min-height:895px;margin:0;padding:20px 15px 0}
+  .site-page-about-two .about-philosophy h2{margin:8px 0 10px}
+  .site-page-about-two .about-two-course-categories{grid-template-columns:repeat(2,minmax(0,1fr));gap:40px 30px;padding-top:10px}
+  .site-page-about-two .about-two-category-card{height:368px}
+ .site-page-about-two .about-two-quote-text{height:193px;min-height:193px}
+ .site-page-about-two.site-page-about-two .about-quote{height:193px;min-height:193px;padding:35px 15px}
+ .site-page-about-two .about-quote h2{font-size:30px;line-height:1.25}
+ .site-page-about-two .about-two-potential{height:675px;padding:0 15px}
+ .about-two-potential-cards{height:675px;grid-template-rows:repeat(2,330px);gap:15px}
+ .site-page-about-two.site-page-about-two .site-page-clients{height:184px;min-height:184px;padding:35px 15px}
+ .site-page-about-two .about-vision{height:1053px;min-height:1053px;padding:60px 15px 50px}
+ .site-page-about-two .about-vision>.site-page-wrap{width:min(755px,100%);height:943px;display:flex;flex-direction:column;align-items:stretch;gap:40px}
+ .about-two-vision-photos{height:551px;flex:0 0 551px}
+  .about-two-vision-main-photo{left:0;top:0;width:48%;height:388px}
+  .about-two-vision-secondary-photo{right:0;bottom:0;width:48%;height:388px}
+  .about-two-vision-stat{right:-22px;bottom:-22px;width:145px;height:95px;padding:14px}
+  .about-two-vision-stat.dark{left:-22px;right:auto;top:-42px;bottom:auto}
+  .about-two-vision-copy{height:352px;flex:0 0 352px}
+  .about-two-vision-copy h2{font-size:35px}
+ .site-page-about-two .about-two-instructor-section{height:335px;min-height:335px;padding:0 15px}
+ .about-two-instructor{width:min(755px,100%);height:335px;padding:50px 30px 60px;gap:20px;background:transparent}
+ .about-two-instructor-photos{height:225px}
+ .site-page-about-two .about-news{height:1324px;min-height:1324px;padding:50px 15px}
+ .site-page-about-two .about-news{width:min(785px,100%);margin:0 auto}
+ .site-page-about-two .about-news>.site-page-eyebrow{display:block;text-align:center}
+ .site-page-about-two .about-news h2{margin:12px 0;font-size:35px;line-height:44px;text-align:center}
+ .about-two-blog-description{max-width:728px;margin:0 auto 34px;text-align:center;color:#778080;font-size:17px;line-height:29px}
+ .site-page-about-two .about-news>div{grid-template-columns:repeat(2,minmax(0,1fr));gap:25px}
+ .site-page-about-two .about-news img{height:296px}
+ .site-page-about-two .about-one-footer{height:666px;min-height:666px;padding:50px 15px 20px}
+ .site-page-about-two .about-one-footer-grid{min-height:554px;padding-bottom:40px}
+}
+@media(max-width:650px){
+ .site-page-about-two .about-story.two-story{height:auto;min-height:0;padding:55px 18px;grid-template-columns:1fr;gap:30px}
+ .site-page-about-two .about-two-story-photos{grid-column:1;grid-row:1;height:430px}
+  .site-page-about-two .about-two-story-copy{grid-column:1;grid-row:1;height:auto;flex-basis:auto}
+  .site-page-about-two .about-two-story-photos img:first-of-type{top:30px;left:8%;width:85%;height:220px}
+ .site-page-about-two .about-two-story-photos img:last-child{width:78%;height:280px}
+  .site-page-about-two .year-badge{top:0;left:82%;width:auto;height:auto}
+ .site-page-about-two .about-philosophy{height:auto;min-height:0;padding:55px 18px}
+ .site-page-about-two .about-philosophy>div{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+ .site-page-about-two .about-two-quote-text,.site-page-about-two .about-quote{height:auto;min-height:285px;padding:55px 18px}
+ .site-page-about-two .about-quote h2{font-size:29px;line-height:1.25}
+ .site-page-about-two .about-two-potential{height:auto;padding:18px}
+ .about-two-potential-cards{height:auto;grid-template-columns:1fr;grid-template-rows:none;grid-auto-rows:280px}
+ .site-page-about-two .about-vision{height:auto;min-height:0;padding:70px 0}
+ .site-page-about-two .about-vision>.site-page-wrap{grid-template-columns:1fr}
+ .about-two-vision-photos{height:340px}
+ .site-page-about-two .about-two-instructor-section{height:auto;min-height:0;padding:45px 0}
+ .about-two-instructor{height:auto;grid-template-columns:1fr;padding:22px}
+ .about-two-instructor-photos{height:250px}
+  .site-page-about-two .about-news{height:auto;min-height:0;padding:55px 18px}
+  .site-page-about-two .about-news>div{grid-template-columns:1fr}
+  .site-page-about-two .about-two-course-categories{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 12px;padding-top:30px}
+  .site-page-about-two .about-two-category-card{height:250px}
+  .site-page-about-two .about-two-vision-main-photo,.site-page-about-two .about-two-vision-secondary-photo{width:48%;height:250px}
+  .site-page-about-two .about-two-vision-stat{right:-16px;bottom:-14px;width:118px;height:76px;padding:10px}
+  .site-page-about-two .about-two-vision-stat.dark{left:-16px;right:auto;top:-30px;bottom:auto}
+  .site-page-about-two .about-two-vision-stat strong{font-size:28px}
+ .site-page-about-two .about-one-footer{height:auto;min-height:0}
+ .site-page-about-two .about-one-footer-grid{min-height:0}
+}
+@media(min-width:992px){
+ .about-two-potential-cards{width:min(1615px,100%);grid-template-columns:repeat(4,minmax(0,1fr));grid-template-rows:675px}
+ .site-page-about-two .about-one-footer-grid{width:min(1160px,100%);grid-template-columns:1.55fr 1fr 1fr .9fr 1.2fr}
+ .site-page-about-two .about-one-footer-bottom{width:min(1160px,100%)}
+}

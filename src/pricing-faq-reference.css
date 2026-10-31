@@ -1,0 +1,130 @@
+/* Pricing and FAQ page-specific treatments from the live Elearna layouts. */
+.site-page-pricing-one > main,
+.site-page-pricing-two > main,
+.site-page-faq > main {
+  padding-top: 0 !important;
+}
+
+.site-page-pricing-one .pricing-hero.one {
+  display: flex;
+  height: 542px;
+  padding: 200px 0 178px;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  text-align: center;
+  background: linear-gradient(rgba(20,32,34,.7),rgba(20,32,34,.7)),url('/assets/66e11aafe5ff2115c3d5d36c_Pricing-One-Hero.webp') center/cover no-repeat;
+}
+.site-page-pricing-one .pricing-hero.one .site-page-wrap { width: min(664px,calc(100% - 48px)); }
+.site-page-pricing-one .pricing-hero.one .site-page-eyebrow { color: #eff6f8; }
+.site-page-pricing-one .pricing-hero.one h1 { max-width: 664px; margin: 14px auto 0; color: #fff; font: 600 60px/1 'Space Grotesk',sans-serif; letter-spacing: -1.5px; }
+.site-page-pricing-one .pricing-section.one { height: 884px; padding: 90px 0; box-sizing: border-box; }
+.site-page-pricing-one .pricing-section.one .site-page-wrap { width: min(955px,calc(100% - 30px)); }
+.site-page-pricing-one .pricing-section.one .price-toggle { margin-bottom: 35px; }
+.site-page-pricing-one .pricing-section.one .price-cards { grid-template-columns: repeat(3,minmax(0,1fr)); gap: 30px; }
+.site-page-pricing-one .pricing-section.one .price-card { height: 620px; min-height: 620px; padding: 35px 20px 45px; border: 0; border-radius: 4px; box-shadow: 0 20px 60px rgba(0,0,0,.15); display: flex; flex-direction: column; }
+.site-page-pricing-one .pricing-section.one .price-card h2 { margin: 0 0 25px; font: 600 20px/25px 'Space Grotesk',sans-serif; }
+.site-page-pricing-one .pricing-section.one .price-card p { min-height: 58px; margin: 0 0 30px; font: 400 17px/29px 'Outfit',sans-serif; }
+.site-page-pricing-one .pricing-section.one .price-amount { margin: 0 0 6px; font: 600 35px/45px 'Space Grotesk',sans-serif; }
+.site-page-pricing-one .pricing-section.one .price-amount small { font: 400 15px/29px 'Outfit',sans-serif; }
+.site-page-pricing-one .pricing-section.one .annual-price { margin: 0 0 25px; font-size: 15px; }
+.site-page-pricing-one .pricing-section.one .price-card ul { flex: 1; margin: 0 0 25px; }
+.site-page-pricing-one .pricing-section.one .price-card.premium { background: #0f252a; color: #a6b1b2; border: 1px solid #ffb606; }
+.site-page-pricing-one .pricing-section.one .price-card.premium h2,
+.site-page-pricing-one .pricing-section.one .price-card.premium .price-amount { color: #fff; }
+.site-page-pricing-one .pricing-section.one .price-card.premium .price-card li { color: #c4cece; }
+.site-page-pricing-one .site-page-clients { height: 241px; min-height: 241px; padding: 68px 24px 65px; box-sizing: border-box; background: #eff6f8; color: #10292b; }
+.site-page-pricing-one .site-page-clients p { color: #10292b; }
+.site-page-pricing-one .pricing-compare { min-height: 1048px; padding-top: 80px; padding-bottom: 90px; box-sizing: border-box; }
+.site-page-pricing-one .site-page-faq { height: 721px; min-height: 721px; padding: 75px 0; box-sizing: border-box; }
+.site-page-pricing-one .site-page-testimonial { height: 579px; min-height: 579px; }
+
+.site-page-pricing-two .pricing-hero.two {
+  display: block;
+  height: 410px;
+  padding: 200px 0 0;
+  box-sizing: border-box;
+  text-align: center;
+  background: #0f252a url('/assets/66d57c66a83a752540483c24_Noisy-Background.webp') center/cover no-repeat;
+}
+.site-page-pricing-two .pricing-hero.two .site-page-wrap { width: min(810px,calc(100% - 48px)); }
+.site-page-pricing-two .pricing-hero.two .site-page-eyebrow { color: #eff6f8; font: 500 15px/29px 'Outfit',sans-serif; }
+.site-page-pricing-two .pricing-hero.two h1 { max-width: 680px; margin: 14px auto 0; color: #fff; font: 600 60px/1 'Space Grotesk',sans-serif; letter-spacing: -1.5px; }
+.site-page-pricing-two .pricing-section.two { height: 816px; padding: 0 0 90px; box-sizing: border-box; background: #0f252a url('/assets/66d57c66a83a752540483c24_Noisy-Background.webp') center/cover no-repeat; }
+.site-page-pricing-two .pricing-section.two .site-page-wrap { width: min(810px,calc(100% - 48px)); }
+.site-page-pricing-two .pricing-section.two .price-toggle { width: 307px; min-height: 40px; margin: 0 auto 34px; padding: 5px 8px; gap: 0; border-radius: 4px; background: rgba(123,124,125,.9); transform: translateY(-6px); }
+.site-page-pricing-two .pricing-section.two .price-toggle button { width: auto; height: 30px; min-height: 30px; padding: 5px 20px; border: 0; border-radius: 2px; background: transparent; color: #0f252a; font-size: 15px; line-height: 20px; text-transform: uppercase; }
+.site-page-pricing-two .pricing-section.two .price-toggle button.active { background: #ffb606; color: #0f252a; }
+.site-page-pricing-two .pricing-section.two .price-toggle>span { margin: 0 8px; padding: 0; background: transparent; color: #0f252a; font-size: 10px; }
+.site-page-pricing-two .pricing-section.two .price-cards { width: 100%; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 30px; }
+.site-page-pricing-two .pricing-section.two .price-card { height: 652px; min-height: 652px; padding: 40px 30px; border: 0; border-radius: 0; box-shadow: none; display: flex; flex-direction: column; align-items: center; text-align: center; }
+.site-page-pricing-two .price-plan-icon { width: 72px; height: 72px; margin: 0 0 25px; object-fit: contain; }
+.site-page-pricing-two .pricing-section.two .price-card h2 { margin: 0 0 10px; font: 600 24px/32px 'Space Grotesk',sans-serif; }
+.site-page-pricing-two .pricing-section.two .price-card p { min-height: 58px; margin: 0 0 20px; font-size: 17px; line-height: 29px; }
+.site-page-pricing-two .pricing-section.two .price-amount { margin: 0; font: 600 35px/45px 'Space Grotesk',sans-serif; }
+.site-page-pricing-two .pricing-section.two .price-amount small { font: 400 15px/29px 'Outfit',sans-serif; }
+.site-page-pricing-two .pricing-section.two .price-amount.discounted { min-height: 42px; margin: 0 0 30px; display: flex; align-items: baseline; gap: 12px; white-space: nowrap; }
+.site-page-pricing-two .pricing-section.two .price-amount del { color: #7b8585; font: 400 17px/20px 'Outfit',sans-serif; }
+.site-page-pricing-two .pricing-section.two .price-card.premium .price-amount del { color: #9095b1; }
+.site-page-pricing-two .pricing-section.two .annual-price { margin: 0 0 24px; }
+.site-page-pricing-two .pricing-section.two .price-card ul { width: 100%; flex: 1; margin: 0 0 25px; padding-top: 20px; border-top: 1px solid rgba(144,149,177,.7); text-align: left; }
+.site-page-pricing-two .pricing-section.two .price-card li { border: 0; padding: 3px 0; }
+.site-page-pricing-two .pricing-section.two .price-card .site-page-button { justify-content: center; min-height: 50px; background: #ffb606; color: #0f252a !important; }
+.site-page-pricing-two .pricing-section.two .price-card.premium { background: #0f252a; color: #9095b1; }
+.site-page-pricing-two .pricing-section.two .price-card.premium h2,
+.site-page-pricing-two .pricing-section.two .price-card.premium .price-amount { color: #fff; }
+.site-page-pricing-two .pricing-section.two .price-card.premium .site-page-button { background: #fff; }
+.site-page-pricing-two .site-page-faq.full-faq { height: 811px; min-height: 811px; padding-top: 90px; box-sizing: border-box; }
+.site-page-pricing-two .pricing-two-faq-panel { width: min(955px,calc(100% - 30px)); height: 721px; margin: 0 auto; }
+.site-page-pricing-two .pricing-two-faq-inner { width: min(895px,calc(100% - 60px)); margin: 0 auto; padding-top: 80px; }
+.site-page-pricing-two .pricing-two-faq-heading { min-height: 247px; display: flex; align-items: center; gap: 30px; }
+.site-page-pricing-two .pricing-two-faq-heading>img { width: 263px; height: 247px; object-fit: contain; }
+.site-page-pricing-two .pricing-two-faq-heading>div { flex: 1; }
+.site-page-pricing-two .pricing-two-faq-heading h2 { margin: 14px 0 0; color: #10292b; font: 600 40px/1.2 'Space Grotesk',sans-serif; }
+.site-page-pricing-two .pricing-two-faq-list { margin-top: 40px; }
+.site-page-pricing-two .pricing-two-faq-list article { margin: 0 0 10px; border-bottom: 1px solid #dce3e2; }
+.site-page-pricing-two .pricing-two-faq-list article>button { width: 100%; min-height: 52px; padding: 14px 30px; display: flex; align-items: center; justify-content: space-between; gap: 20px; border: 0; background: transparent; color: #10292b; text-align: left; font: 500 17px/24px 'Outfit',sans-serif; cursor: pointer; }
+.site-page-pricing-two .pricing-two-faq-list article>button b { color: #ffb606; font-size: 23px; }
+.site-page-pricing-two .pricing-two-faq-list article p { margin: 0; padding: 0 30px 18px; color: #778080; font-size: 15px; }
+.site-page-pricing-two .site-page-cta { height: 204px; min-height: 204px; padding: 0; display: flex; align-items: center; box-sizing: border-box; }
+
+.site-page-faq .faq-hero {
+  height: 654px;
+  background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url('/assets/66e034b57b97c18456fc8163_FAQ-Hero.webp') center/cover no-repeat;
+  text-align: center;
+}
+.site-page-faq .faq-hero .site-page-wrap { max-width: 746px; transform: translateY(12px); }
+.site-page-faq .faq-hero h1 { max-width: 746px; margin: 0 auto; color: #fff; font: 600 60px/60px 'Space Grotesk',sans-serif; white-space: nowrap; }
+.site-page-faq .faq-hero p { margin: 20px 0 0; color: #fff; font: 400 17px/29px 'Outfit',sans-serif; text-align: center; }
+
+@media (max-width: 991px) {
+  .site-page-pricing-one .pricing-hero.one h1,
+  .site-page-pricing-two .pricing-hero.two h1,
+  .site-page-faq .faq-hero h1 { font-size: clamp(38px,6vw,56px); }
+  .site-page-pricing-one .pricing-section.one,
+  .site-page-pricing-two .pricing-section.two { height: auto; min-height: 0; padding: 55px 0; }
+  .site-page-pricing-one .pricing-section.one .price-card,
+  .site-page-pricing-two .pricing-section.two .price-card { height: auto; min-height: 560px; }
+  .site-page-pricing-one .site-page-faq,
+  .site-page-pricing-one .pricing-compare,
+  .site-page-pricing-two .site-page-faq.full-faq { height: auto; min-height: 0; }
+  .site-page-pricing-two .pricing-two-faq-panel { height: auto; }
+  .site-page-pricing-two .pricing-two-faq-inner { width: min(895px,calc(100% - 36px)); padding-top: 50px; }
+}
+
+@media (max-width: 650px) {
+  .site-page-pricing-one .pricing-hero.one { height: 460px; padding: 130px 0 70px; }
+  .site-page-pricing-one .pricing-section.one .price-cards,
+  .site-page-pricing-two .pricing-section.two .price-cards { grid-template-columns: 1fr; }
+  .site-page-pricing-one .pricing-section.one .price-card,
+  .site-page-pricing-two .pricing-section.two .price-card { min-height: 0; }
+  .site-page-pricing-two .pricing-hero.two { height: 410px; padding-top: 135px; }
+  .site-page-pricing-two .pricing-section.two { padding: 0 0 55px; }
+  .site-page-pricing-two .pricing-section.two .price-toggle { width: max-content; margin-top: 0; margin-bottom: 30px; transform: none; }
+  .site-page-pricing-two .pricing-two-faq-heading { align-items: flex-start; flex-direction: column; gap: 25px; }
+  .site-page-pricing-two .pricing-two-faq-heading>img { width: 190px; height: 175px; }
+  .site-page-pricing-two .pricing-two-faq-heading h2 { font-size: 32px; }
+  .site-page-faq .faq-hero { height: 430px; }
+  .site-page-faq .faq-hero .site-page-wrap { transform: none; }
+  .site-page-faq .faq-hero h1 { font-size: 40px; line-height: 1.1; white-space: normal; }
+}
